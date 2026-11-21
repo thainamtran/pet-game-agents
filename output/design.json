@@ -1,0 +1,61 @@
+{
+  "title": "Little Companion",
+  "theme": "cozy backyard companion",
+  "species": "cat",
+  "pet_name_default": "Mochi",
+  "stats": {
+    "hunger": {
+      "min": 0,
+      "max": 100,
+      "start": 70,
+      "decay_per_turn": 8
+    },
+    "happiness": {
+      "min": 0,
+      "max": 100,
+      "start": 72,
+      "decay_per_turn": 5
+    },
+    "energy": {
+      "min": 0,
+      "max": 100,
+      "start": 80,
+      "decay_per_turn": 4
+    }
+  },
+  "leveling": {
+    "xp_per_action": 10,
+    "xp_to_level": 30,
+    "max_level": 5
+  },
+  "actions": [
+    {
+      "id": "feed",
+      "label": "Feed",
+      "effects": {
+        "hunger": 32,
+        "energy": 4,
+        "happiness": 6
+      }
+    },
+    {
+      "id": "play",
+      "label": "Play",
+      "effects": {
+        "happiness": 26,
+        "energy": -16,
+        "hunger": -8
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "effects": {
+        "energy": 38,
+        "hunger": -6,
+        "happiness": 6
+      }
+    }
+  ],
+  "notes": "Hunger is a fullness meter: 100 is well fed, 0 is starving. Every action advances a turn and applies idle decay."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "playable",
+  "playable": true,
+  "species": "cat",
+  "theme": "cozy backyard companion",
+  "retries": 0,
+  "mode": "mock",
+  "log": [
+    "intake: auto-approved species='cat' theme='cozy backyard companion'",
+    "designer: designed Little Companion (cat, cozy backyard companion) in mock mode",
+    "coder: wrote pet_game.py and tests from the mock templates",
+    "artist: wrote ASCII + 5 SVG sprite(s) for a cat in mock mode",
+    "tester: PASS \u2014 All playability checks passed.",
+    "manager: game is playable; stopping the loop"
+  ],
+  "test_report": {
+    "passed": true,
+    "playable": true,
+    "category": "code",
+    "summary": "All playability checks passed.",
+    "issues": [],
+    "pytest_exit_code": 0,
+    "pytest_output": "........                                                                 [100%]\n8 passed in 0.02s",
+    "scripted_result": {
+      "final": {
+        "name": "Mochi",
+        "species": "cat",
+        "hunger": 66,
+        "happiness": 95,
+        "energy": 96,
+        "level": 3,
+        "xp": 20,
+        "turn": 8,
+        "alive": true,
+        "mood": "play"
+      },
+      "alive": true
+    }
+  }
+}
